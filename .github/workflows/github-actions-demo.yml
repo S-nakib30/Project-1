@@ -13,4 +13,11 @@ jobs:
     - name: Checkout the repository
       uses: actions/checkout@v2  # This checks out the code from the repository
 
+    - name: Read and Output hello.txt Content
+      run: |
+        if [ -f Hello.txt ]; then  # Check if hello.txt exists
+          cat Hello.txt           # Output the content of hello.txt
+        else
+          echo "Hello.txt not found!"  # Handle case when the file doesn't exist
+        fi
 
