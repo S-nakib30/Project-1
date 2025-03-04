@@ -1,4 +1,4 @@
-name: Read hello.txt and Output Content
+name: Read Hello.txt and Output Content
 
 on:
   push:
