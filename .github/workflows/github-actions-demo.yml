@@ -6,7 +6,7 @@ on:
       - main  # Trigger on push to the main branch
 
 jobs:
-  read-hello-file:
+  read-Hello-file:
     runs-on: ubuntu-latest  # The job will run on an Ubuntu machine
     
     steps:
